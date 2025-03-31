@@ -80,3 +80,49 @@ body {
 }
 
 /* *************** */
+
+.pizza {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.pizza__image {
+  width: 12rem;
+  aspect-ratio: 1;
+  align-self: start;
+}
+
+.pizza__content {
+  padding: 0.4rem 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.pizza__title {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.pizza__description {
+  margin-bottom: auto;
+
+  font-size: 1.4rem;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.pizza__price {
+  display: block;
+  font-size: 1.6rem;
+}
+
+.pizza_sold-out {
+  color: #888;
+}
+
+.pizza_sold-out .pizza__image {
+  filter: grayscale();
+  opacity: 0.8;
+}
