@@ -1,7 +1,9 @@
+import Header from '@/components/Header';
+
 export default function App() {
   return (
     <div className="container">
-      <h1>Pizza Menu</h1>
+      <Header />
     </div>
   );
 }

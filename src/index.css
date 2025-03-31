@@ -37,3 +37,46 @@ body {
 }
 
 /* *************** */
+
+.header {
+  align-self: stretch;
+}
+
+.header__title {
+  display: block;
+  width: 100%;
+
+  font-size: 5.2rem;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: #edc84b;
+
+  position: relative;
+}
+
+.header__title::before,
+.header__title::after {
+  display: block;
+  content: '';
+
+  width: 4rem;
+  height: 3px;
+
+  background-color: #edc84b;
+
+  position: absolute;
+  top: calc(50% - 1px);
+}
+
+.header__title::before {
+  left: 0;
+}
+
+.header__title::after {
+  right: 0;
+}
+
+/* *************** */
