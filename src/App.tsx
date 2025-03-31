@@ -1,3 +1,7 @@
 export default function App() {
-  return <h1>Pizza Menu</h1>;
+  return (
+    <div className="container">
+      <h1>Pizza Menu</h1>
+    </div>
+  );
 }
